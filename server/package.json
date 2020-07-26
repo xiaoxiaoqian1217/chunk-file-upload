@@ -1,0 +1,19 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "egg-bin dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "egg": "^2.27.0",
+    "egg-bin": "^4.15.0"
+  },
+  "dependencies": {
+    "fs-extra": "^9.0.1"
+  }
+}

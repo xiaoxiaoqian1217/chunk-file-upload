@@ -1,0 +1,910 @@
+2020-07-19 17:50:01,574 ERROR 6807 [-/127.0.0.1/-/2ms POST /upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/file-upload/server/app/controller/home.js:14:35)
+    at Object.callFn (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 6807
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 17:56:19,751 ERROR 6910 [-/127.0.0.1/-/29ms POST /upload] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.upload (/Volumes/D/xxq/study/file-upload/server/app/controller/home.js:16:29)
+    at Object.callFn (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 6910
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 18:13:22,783 ERROR 7503 [-/127.0.0.1/-/34ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 7503
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 18:25:10,346 ERROR 8247 [-/127.0.0.1/-/25ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8247
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 18:25:39,388 ERROR 8247 [-/127.0.0.1/-/22ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8247
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 18:27:02,479 ERROR 8303 [-/127.0.0.1/-/50ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8303
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:15:10,201 ERROR 8673 [-/127.0.0.1/-/11ms POST /upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/server/app/controller/home.js:16:66)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:17:15,541 ERROR 8673 [-/127.0.0.1/-/2ms POST /upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/server/app/controller/home.js:16:66)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:17:37,931 ERROR 8673 [-/127.0.0.1/-/2ms POST /upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/server/app/controller/home.js:16:66)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:17:40,996 ERROR 8673 [-/127.0.0.1/-/2ms POST /upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/server/app/controller/home.js:16:66)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:18:46,376 ERROR 8673 [-/127.0.0.1/-/5ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:19:10,301 ERROR 8673 [-/127.0.0.1/-/4ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:19:14,562 ERROR 8673 [-/127.0.0.1/-/1ms POST /upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/server/app/controller/home.js:16:66)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:19:46,706 ERROR 8673 [-/127.0.0.1/-/4ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:20:26,213 ERROR 8673 [-/127.0.0.1/-/4ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 20:30:38,243 ERROR 8599 nodejs.ClusterClientNoResponseError: client no response in 1771961ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/D/xxq/study/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 8599
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 20:53:12,365 ERROR 8599 nodejs.ClusterClientNoResponseError: client no response in 1354117ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/D/xxq/study/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 8599
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:36:19,969 ERROR 2618 [-/127.0.0.1/-/19403ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2618
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:37:13,564 ERROR 2618 [-/127.0.0.1/-/7ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2618
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:14,496 ERROR 2772 [-/127.0.0.1/-/24ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:14,498 ERROR 2772 [-/127.0.0.1/-/50ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:14,499 ERROR 2772 [-/127.0.0.1/-/35ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:14,500 ERROR 2772 [-/127.0.0.1/-/33ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:44,442 ERROR 2772 [-/127.0.0.1/-/32ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:44,445 ERROR 2772 [-/127.0.0.1/-/51ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:44,450 ERROR 2772 [-/127.0.0.1/-/46ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:44,451 ERROR 2772 [-/127.0.0.1/-/52ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,980 ERROR 775 [-/127.0.0.1/-/40ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,982 ERROR 775 [-/127.0.0.1/-/37ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,983 ERROR 775 [-/127.0.0.1/-/51ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,984 ERROR 775 [-/127.0.0.1/-/47ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,985 ERROR 775 [-/127.0.0.1/-/64ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,987 ERROR 775 [-/127.0.0.1/-/45ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:49,010 ERROR 775 [-/127.0.0.1/-/9ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:49,010 ERROR 775 [-/127.0.0.1/-/14ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 16:30:06,055 ERROR 830 nodejs.ClusterClientNoResponseError: client no response in 1640170ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/D/xxq/study/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 830
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 17:44:20,894 ERROR 830 nodejs.ClusterClientNoResponseError: client no response in 434259ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout._onTimeout (/Volumes/D/xxq/study/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (internal/timers.js:531:17)
+    at processTimers (internal/timers.js:475:7)
+name: "ClusterClientNoResponseError"
+pid: 830
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,162 ERROR 1916 [-/127.0.0.1/-/8ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,193 ERROR 1916 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,204 ERROR 1916 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,212 ERROR 1916 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,217 ERROR 1916 [-/127.0.0.1/-/1ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,223 ERROR 1916 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,227 ERROR 1916 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,230 ERROR 1916 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,527 ERROR 1916 [-/127.0.0.1/-/64ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,527 ERROR 1916 [-/127.0.0.1/-/60ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,528 ERROR 1916 [-/127.0.0.1/-/52ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,529 ERROR 1916 [-/127.0.0.1/-/50ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,532 ERROR 1916 [-/127.0.0.1/-/34ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,533 ERROR 1916 [-/127.0.0.1/-/26ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,562 ERROR 1916 [-/127.0.0.1/-/10ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,563 ERROR 1916 [-/127.0.0.1/-/14ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,395 ERROR 2159 [-/127.0.0.1/-/60ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,401 ERROR 2159 [-/127.0.0.1/-/54ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,406 ERROR 2159 [-/127.0.0.1/-/55ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,413 ERROR 2159 [-/127.0.0.1/-/49ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,423 ERROR 2159 [-/127.0.0.1/-/38ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,425 ERROR 2159 [-/127.0.0.1/-/34ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,430 ERROR 2159 [-/127.0.0.1/-/22ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,431 ERROR 2159 [-/127.0.0.1/-/11ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,299 ERROR 2168 [-/127.0.0.1/-/52ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,305 ERROR 2168 [-/127.0.0.1/-/46ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,311 ERROR 2168 [-/127.0.0.1/-/47ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,319 ERROR 2168 [-/127.0.0.1/-/49ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,323 ERROR 2168 [-/127.0.0.1/-/45ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,325 ERROR 2168 [-/127.0.0.1/-/40ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,346 ERROR 2168 [-/127.0.0.1/-/29ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,347 ERROR 2168 [-/127.0.0.1/-/21ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,939 ERROR 2170 [-/127.0.0.1/-/49ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,946 ERROR 2170 [-/127.0.0.1/-/44ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,951 ERROR 2170 [-/127.0.0.1/-/45ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,959 ERROR 2170 [-/127.0.0.1/-/48ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,967 ERROR 2170 [-/127.0.0.1/-/46ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,971 ERROR 2170 [-/127.0.0.1/-/45ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,988 ERROR 2170 [-/127.0.0.1/-/19ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,990 ERROR 2170 [-/127.0.0.1/-/28ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:59:11,352 ERROR 2170 [-/127.0.0.1/-/11ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:59:11,353 ERROR 2170 [-/127.0.0.1/-/15ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 19:00:09,097 ERROR 2170 [-/127.0.0.1/-/18ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 19:00:09,099 ERROR 2170 [-/127.0.0.1/-/41ms POST /uploadList] nodejs.Error: '/Volumes/D/xxq/study/server/app/public/bc2414d35ab81b28203dbb283c3470a9undefined' already exists
+    at mayCopyFile (/Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:90:15)
+    at onFile (/Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:80:10)
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:73:46
+    at callback (/Volumes/D/xxq/study/server/node_modules/graceful-fs/polyfills.js:295:20)
+    at FSReqCallback.oncomplete (fs.js:159:5)
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 19:00:09,100 ERROR 2170 [-/127.0.0.1/-/35ms POST /uploadList] nodejs.Error: '/Volumes/D/xxq/study/server/app/public/bc2414d35ab81b28203dbb283c3470a9undefined' already exists
+    at mayCopyFile (/Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:90:15)
+    at onFile (/Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:80:10)
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:73:46
+    at callback (/Volumes/D/xxq/study/server/node_modules/graceful-fs/polyfills.js:295:20)
+    at FSReqCallback.oncomplete (fs.js:159:5)
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 19:00:09,131 ERROR 2170 [-/127.0.0.1/-/17ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 19:00:09,132 ERROR 2170 [-/127.0.0.1/-/20ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+

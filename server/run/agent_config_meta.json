@@ -1,0 +1,266 @@
+{
+  "keys": "/Volumes/D/xxq/study/server/config/config.default.js",
+  "multipart": {
+    "mode": "/Volumes/D/xxq/study/server/config/config.default.js",
+    "whitelist": "/Volumes/D/xxq/study/server/config/config.default.js",
+    "autoFields": "/Volumes/D/xxq/study/server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Volumes/D/xxq/study/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Volumes/D/xxq/study/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Volumes/D/xxq/study/server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Volumes/D/xxq/study/server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Volumes/D/xxq/study/server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Volumes/D/xxq/study/server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Volumes/D/xxq/study/server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Volumes/D/xxq/study/server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Volumes/D/xxq/study/server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "security": {
+    "csrf": {
+      "enable": "/Volumes/D/xxq/study/server/config/config.default.js",
+      "type": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "UPLOAD_DIR": "/Volumes/D/xxq/study/server/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Volumes/D/xxq/study/server/config/config.default.js",
+      "port": "/Volumes/D/xxq/study/server/config/config.default.js",
+      "hostname": "/Volumes/D/xxq/study/server/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Volumes/D/xxq/study/server/node_modules/egg-session/config/config.default.js",
+    "key": "/Volumes/D/xxq/study/server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Volumes/D/xxq/study/server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Volumes/D/xxq/study/server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Volumes/D/xxq/study/server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Volumes/D/xxq/study/server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Volumes/D/xxq/study/server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Volumes/D/xxq/study/server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Volumes/D/xxq/study/server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Volumes/D/xxq/study/server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Volumes/D/xxq/study/server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Volumes/D/xxq/study/server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Volumes/D/xxq/study/server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Volumes/D/xxq/study/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Volumes/D/xxq/study/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Volumes/D/xxq/study/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Volumes/D/xxq/study/server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Volumes/D/xxq/study/server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Volumes/D/xxq/study/server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Volumes/D/xxq/study/server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Volumes/D/xxq/study/server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Volumes/D/xxq/study/server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Volumes/D/xxq/study/server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "development": {
+    "watchDirs": "/Volumes/D/xxq/study/server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Volumes/D/xxq/study/server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Volumes/D/xxq/study/server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Volumes/D/xxq/study/server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Volumes/D/xxq/study/server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Volumes/D/xxq/study/server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Volumes/D/xxq/study/server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Volumes/D/xxq/study/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Volumes/D/xxq/study/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Volumes/D/xxq/study/server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Volumes/D/xxq/study/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Volumes/D/xxq/study/server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Volumes/D/xxq/study/server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Volumes/D/xxq/study/server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Volumes/D/xxq/study/server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Volumes/D/xxq/study/server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Volumes/D/xxq/study/server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Volumes/D/xxq/study/server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Volumes/D/xxq/study/server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Volumes/D/xxq/study/server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Volumes/D/xxq/study/server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Volumes/D/xxq/study/server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Volumes/D/xxq/study/server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "name": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "cookies": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "proxy": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "maxIpsCount": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "version": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "description": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "main": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "test": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+      "dev": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "license": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "devDependencies": {
+      "egg": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "fs-extra": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "HOME": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "rundir": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "notFound": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "textLimit": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "strict": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+      "depth": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "env": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "level": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "buffer": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "logging": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Volumes/D/xxq/study/server/node_modules/egg/config/config.default.js"
+}

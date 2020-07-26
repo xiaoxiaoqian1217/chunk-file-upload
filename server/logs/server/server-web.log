@@ -1,0 +1,2219 @@
+2020-07-19 17:17:56,814 WARN 5848 [-/127.0.0.1/-/2ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-07-19 17:17:56,817 WARN 5848 [-/127.0.0.1/-/4ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 5848
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 17:20:13,061 WARN 5848 [-/127.0.0.1/-/1ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-07-19 17:20:13,061 WARN 5848 [-/127.0.0.1/-/1ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 5848
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 17:22:16,487 WARN 6234 [-/127.0.0.1/-/3ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-07-19 17:22:16,490 WARN 6234 [-/127.0.0.1/-/5ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 6234
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 17:22:47,526 WARN 6253 [-/127.0.0.1/-/5ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-07-19 17:22:47,529 WARN 6253 [-/127.0.0.1/-/7ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 6253
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 17:44:55,670 WARN 6651 [-/127.0.0.1/-/2ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-07-19 17:44:55,673 WARN 6651 [-/127.0.0.1/-/4ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 6651
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 17:47:11,046 WARN 6695 [-/127.0.0.1/-/4ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-07-19 17:47:11,050 WARN 6695 [-/127.0.0.1/-/7ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/app/extend/context.js:162:32)
+    at csrf (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 6695
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 17:50:01,574 ERROR 6807 [-/127.0.0.1/-/2ms POST /upload] nodejs.TypeError: Cannot read property '0' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/file-upload/server/app/controller/home.js:14:35)
+    at Object.callFn (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:36:12
+
+pid: 6807
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 17:54:42,521 WARN 6853 [-/127.0.0.1/-/12ms POST /upload] nodejs.Error: Invalid filename: 2018-01-04（5-8集）公开课课件.rar
+    at checkFile (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/file-upload/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/file-upload/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/file-upload/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/file-upload/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/file-upload/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/file-upload/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 6853
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 17:55:40,662 WARN 6910 [-/127.0.0.1/-/13ms POST /upload] nodejs.Error: Invalid filename: 前端开发工程师 - 肖晓倩 (1).pdf
+    at checkFile (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/file-upload/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/file-upload/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/file-upload/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/file-upload/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/file-upload/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/file-upload/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 6910
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 17:56:19,752 ERROR 6910 [-/127.0.0.1/-/29ms POST /upload] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.upload (/Volumes/D/xxq/study/file-upload/server/app/controller/home.js:16:29)
+    at Object.callFn (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/file-upload/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/file-upload/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 6910
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 18:01:58,250 WARN 7160 [-/127.0.0.1/-/32ms POST /upload] nodejs.Error: Invalid filename: Web前端性能优化方案与实践@www.java1234.com.pdf
+    at checkFile (/Volumes/D/xxq/study/file-upload/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/file-upload/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/file-upload/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/file-upload/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/file-upload/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/file-upload/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/file-upload/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 7160
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 18:05:11,889 WARN 7346 [-/127.0.0.1/-/1384ms POST /upload] nodejs.Error: Invalid filename: 8-2.vep
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 7346
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 18:13:22,783 ERROR 7503 [-/127.0.0.1/-/34ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 7503
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 18:23:23,882 WARN 8247 [-/127.0.0.1/-/15ms POST /upload] nodejs.Error: Invalid filename: 前端开发工程师 - 肖晓倩.pdf
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 8247
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 18:25:10,346 ERROR 8247 [-/127.0.0.1/-/25ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8247
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 18:25:39,388 ERROR 8247 [-/127.0.0.1/-/22ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8247
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 18:27:02,480 ERROR 8303 [-/127.0.0.1/-/50ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8303
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:15:10,201 ERROR 8673 [-/127.0.0.1/-/11ms POST /upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/server/app/controller/home.js:16:66)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:17:15,541 ERROR 8673 [-/127.0.0.1/-/2ms POST /upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/server/app/controller/home.js:16:66)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:17:37,931 ERROR 8673 [-/127.0.0.1/-/2ms POST /upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/server/app/controller/home.js:16:66)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:17:40,996 ERROR 8673 [-/127.0.0.1/-/2ms POST /upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/server/app/controller/home.js:16:66)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:18:46,376 ERROR 8673 [-/127.0.0.1/-/5ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:19:10,301 ERROR 8673 [-/127.0.0.1/-/4ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:19:14,562 ERROR 8673 [-/127.0.0.1/-/1ms POST /upload] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.upload (/Volumes/D/xxq/study/server/app/controller/home.js:16:66)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:19:46,706 ERROR 8673 [-/127.0.0.1/-/4ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-19 19:20:26,213 ERROR 8673 [-/127.0.0.1/-/4ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 8673
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:09,956 WARN 2377 [-/127.0.0.1/-/12ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:09,963 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:09,969 WARN 2377 [-/127.0.0.1/-/4ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:09,973 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:09,978 WARN 2377 [-/127.0.0.1/-/4ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:09,984 WARN 2377 [-/127.0.0.1/-/5ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:09,989 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:09,994 WARN 2377 [-/127.0.0.1/-/4ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:09,998 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,003 WARN 2377 [-/127.0.0.1/-/4ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,023 WARN 2377 [-/127.0.0.1/-/19ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,030 WARN 2377 [-/127.0.0.1/-/5ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,039 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,043 WARN 2377 [-/127.0.0.1/-/4ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,048 WARN 2377 [-/127.0.0.1/-/4ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,061 WARN 2377 [-/127.0.0.1/-/7ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,073 WARN 2377 [-/127.0.0.1/-/5ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,082 WARN 2377 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,090 WARN 2377 [-/127.0.0.1/-/6ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,095 WARN 2377 [-/127.0.0.1/-/5ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,100 WARN 2377 [-/127.0.0.1/-/4ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,106 WARN 2377 [-/127.0.0.1/-/4ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,110 WARN 2377 [-/127.0.0.1/-/4ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,115 WARN 2377 [-/127.0.0.1/-/4ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,125 WARN 2377 [-/127.0.0.1/-/7ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,131 WARN 2377 [-/127.0.0.1/-/5ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,136 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,141 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,146 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,150 WARN 2377 [-/127.0.0.1/-/4ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,157 WARN 2377 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,161 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,165 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,170 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,174 WARN 2377 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,177 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,181 WARN 2377 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,185 WARN 2377 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:14:10,188 WARN 2377 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:17:45,786 WARN 2377 [-/127.0.0.1/-/35315ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:17:45,873 WARN 2377 [-/127.0.0.1/-/35314ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:17:45,890 WARN 2377 [-/127.0.0.1/-/35296ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:17:45,909 WARN 2377 [-/127.0.0.1/-/35299ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:17:45,928 WARN 2377 [-/127.0.0.1/-/35300ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:17:45,941 WARN 2377 [-/127.0.0.1/-/35296ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:21:38,375 WARN 2377 [-/127.0.0.1/-/35319ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:21:38,428 WARN 2377 [-/127.0.0.1/-/35319ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:21:38,445 WARN 2377 [-/127.0.0.1/-/35319ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:21:38,461 WARN 2377 [-/127.0.0.1/-/35318ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:21:38,478 WARN 2377 [-/127.0.0.1/-/35300ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:21:38,497 WARN 2377 [-/127.0.0.1/-/35301ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:21:49,990 WARN 2377 [-/127.0.0.1/-/10418ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:21:54,659 WARN 2377 [-/127.0.0.1/-/15331ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:21:54,748 WARN 2377 [-/127.0.0.1/-/15196ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2377
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:24:03,880 WARN 2524 [-/127.0.0.1/-/35317ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2524
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:24:03,914 WARN 2524 [-/127.0.0.1/-/35316ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2524
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:24:03,930 WARN 2524 [-/127.0.0.1/-/35315ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2524
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:24:03,948 WARN 2524 [-/127.0.0.1/-/35314ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2524
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:24:03,965 WARN 2524 [-/127.0.0.1/-/35316ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2524
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:24:03,981 WARN 2524 [-/127.0.0.1/-/35296ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2524
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:26:11,143 WARN 2558 [-/127.0.0.1/-/5873ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2558
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:27:31,489 WARN 2572 [-/127.0.0.1/-/35213ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2572
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:27:31,607 WARN 2572 [-/127.0.0.1/-/35298ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2572
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:27:31,623 WARN 2572 [-/127.0.0.1/-/35297ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2572
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:27:31,642 WARN 2572 [-/127.0.0.1/-/35298ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2572
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:27:31,658 WARN 2572 [-/127.0.0.1/-/35298ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2572
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:27:31,678 WARN 2572 [-/127.0.0.1/-/35281ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2572
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:27:42,892 WARN 2572 [-/127.0.0.1/-/5871ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2572
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:29:03,503 WARN 2618 [-/127.0.0.1/-/5874ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2618
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:34:49,473 WARN 2618 [-/127.0.0.1/-/5522ms POST /upload] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2618
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:35:28,399 WARN 2618 [-/127.0.0.1/-/4728ms POST /upload] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2618
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:35:42,426 WARN 2618 [-/127.0.0.1/-/18876ms POST /upload] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2618
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:35:42,478 WARN 2618 [-/127.0.0.1/-/18841ms POST /upload] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2618
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:35:42,496 WARN 2618 [-/127.0.0.1/-/18842ms POST /upload] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2618
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:36:19,969 ERROR 2618 [-/127.0.0.1/-/19403ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2618
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:37:13,564 ERROR 2618 [-/127.0.0.1/-/7ms POST /upload] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2618
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:40:12,136 WARN 2729 [-/127.0.0.1/-/19ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2729
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:40:12,151 WARN 2729 [-/127.0.0.1/-/8ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2729
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:40:12,155 WARN 2729 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2729
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:40:12,162 WARN 2729 [-/127.0.0.1/-/5ms POST /uploadList] nodejs.Error: Invalid filename: blob
+    at checkFile (/Volumes/D/xxq/study/server/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Volumes/D/xxq/study/server/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:210:5)
+    at Busboy.emit (/Volumes/D/xxq/study/server/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Volumes/D/xxq/study/server/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:210:5)
+    at HeaderParser.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:210:5)
+    at HeaderParser._finish (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Volumes/D/xxq/study/server/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 2729
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:14,496 ERROR 2772 [-/127.0.0.1/-/24ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:14,498 ERROR 2772 [-/127.0.0.1/-/50ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:14,499 ERROR 2772 [-/127.0.0.1/-/35ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:14,500 ERROR 2772 [-/127.0.0.1/-/33ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:44,442 ERROR 2772 [-/127.0.0.1/-/32ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:44,445 ERROR 2772 [-/127.0.0.1/-/51ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:44,450 ERROR 2772 [-/127.0.0.1/-/46ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-20 19:43:44,451 ERROR 2772 [-/127.0.0.1/-/52ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2772
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,980 ERROR 775 [-/127.0.0.1/-/40ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,982 ERROR 775 [-/127.0.0.1/-/37ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,983 ERROR 775 [-/127.0.0.1/-/51ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,984 ERROR 775 [-/127.0.0.1/-/47ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,985 ERROR 775 [-/127.0.0.1/-/64ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:48,987 ERROR 775 [-/127.0.0.1/-/45ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:49,010 ERROR 775 [-/127.0.0.1/-/9ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-23 19:12:49,011 ERROR 775 [-/127.0.0.1/-/14ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 775
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,187 ERROR 1916 [-/127.0.0.1/-/8ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,200 ERROR 1916 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,209 ERROR 1916 [-/127.0.0.1/-/3ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,215 ERROR 1916 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,220 ERROR 1916 [-/127.0.0.1/-/1ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,223 ERROR 1916 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,227 ERROR 1916 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:52:37,230 ERROR 1916 [-/127.0.0.1/-/2ms POST /uploadList] nodejs.TypeError: Cannot read property 'filename' of undefined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:61)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,527 ERROR 1916 [-/127.0.0.1/-/64ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,527 ERROR 1916 [-/127.0.0.1/-/60ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,528 ERROR 1916 [-/127.0.0.1/-/52ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,529 ERROR 1916 [-/127.0.0.1/-/50ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,532 ERROR 1916 [-/127.0.0.1/-/34ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,548 ERROR 1916 [-/127.0.0.1/-/26ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,562 ERROR 1916 [-/127.0.0.1/-/10ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:54:00,565 ERROR 1916 [-/127.0.0.1/-/14ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 1916
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,395 ERROR 2159 [-/127.0.0.1/-/60ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,401 ERROR 2159 [-/127.0.0.1/-/54ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,406 ERROR 2159 [-/127.0.0.1/-/55ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,417 ERROR 2159 [-/127.0.0.1/-/49ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,423 ERROR 2159 [-/127.0.0.1/-/38ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,426 ERROR 2159 [-/127.0.0.1/-/34ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,430 ERROR 2159 [-/127.0.0.1/-/22ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:19,432 ERROR 2159 [-/127.0.0.1/-/11ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2159
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,300 ERROR 2168 [-/127.0.0.1/-/52ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,305 ERROR 2168 [-/127.0.0.1/-/46ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,312 ERROR 2168 [-/127.0.0.1/-/47ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,320 ERROR 2168 [-/127.0.0.1/-/49ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,323 ERROR 2168 [-/127.0.0.1/-/45ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,326 ERROR 2168 [-/127.0.0.1/-/40ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,346 ERROR 2168 [-/127.0.0.1/-/29ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:56:48,347 ERROR 2168 [-/127.0.0.1/-/21ms POST /uploadList] nodejs.ReferenceError: name is not defined
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:24)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at /Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:36:12
+
+pid: 2168
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,940 ERROR 2170 [-/127.0.0.1/-/49ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,948 ERROR 2170 [-/127.0.0.1/-/44ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,956 ERROR 2170 [-/127.0.0.1/-/45ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,960 ERROR 2170 [-/127.0.0.1/-/48ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,967 ERROR 2170 [-/127.0.0.1/-/46ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,972 ERROR 2170 [-/127.0.0.1/-/45ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,989 ERROR 2170 [-/127.0.0.1/-/19ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:57:29,991 ERROR 2170 [-/127.0.0.1/-/28ms POST /uploadList] nodejs.TypeError: The "path" argument must be of type string. Received type undefined
+    at validateString (internal/validators.js:112:11)
+    at Object.resolve (path.js:981:7)
+    at HomeController.uploadList (/Volumes/D/xxq/study/server/app/controller/home.js:29:28)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Volumes/D/xxq/study/server/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:44:32)
+    at next (/Volumes/D/xxq/study/server/node_modules/koa-compose/index.js:45:18)
+    at /Volumes/D/xxq/study/server/node_modules/@eggjs/router/lib/router.js:190:18
+code: "ERR_INVALID_ARG_TYPE"
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:59:11,352 ERROR 2170 [-/127.0.0.1/-/11ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 18:59:11,353 ERROR 2170 [-/127.0.0.1/-/15ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 19:00:09,097 ERROR 2170 [-/127.0.0.1/-/18ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 19:00:09,099 ERROR 2170 [-/127.0.0.1/-/41ms POST /uploadList] nodejs.Error: '/Volumes/D/xxq/study/server/app/public/bc2414d35ab81b28203dbb283c3470a9undefined' already exists
+    at mayCopyFile (/Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:90:15)
+    at onFile (/Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:80:10)
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:73:46
+    at callback (/Volumes/D/xxq/study/server/node_modules/graceful-fs/polyfills.js:295:20)
+    at FSReqCallback.oncomplete (fs.js:159:5)
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 19:00:09,100 ERROR 2170 [-/127.0.0.1/-/35ms POST /uploadList] nodejs.Error: '/Volumes/D/xxq/study/server/app/public/bc2414d35ab81b28203dbb283c3470a9undefined' already exists
+    at mayCopyFile (/Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:90:15)
+    at onFile (/Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:80:10)
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/copy/copy.js:73:46
+    at callback (/Volumes/D/xxq/study/server/node_modules/graceful-fs/polyfills.js:295:20)
+    at FSReqCallback.oncomplete (fs.js:159:5)
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 19:00:09,131 ERROR 2170 [-/127.0.0.1/-/17ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
+2020-07-26 19:00:09,132 ERROR 2170 [-/127.0.0.1/-/20ms POST /uploadList] nodejs.Error: dest already exists.
+    at /Volumes/D/xxq/study/server/node_modules/fs-extra/lib/move/move.js:41:31
+    at /Volumes/D/xxq/study/server/node_modules/universalify/index.js:21:54
+
+pid: 2170
+hostname: xiaoxiaoqiandeMacBook-Pro.local
+
