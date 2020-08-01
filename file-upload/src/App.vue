@@ -73,24 +73,68 @@ export default {
       }
       return fileChunk
 		},
-		uploadChunk() {
-			const promises = this.chunk.map((item, index) => {
-				const { cur, fileHash ,file, hash} = item
+		async uploadChunk() {
+			const forms = this.chunk.map((item,index) => {
+				const {  fileHash ,file, hash} = item
 				const form = new FormData()
 				form.append('file', file)
-				form.append('cur', cur)
+        form.append('cur', index)
+      
 				form.append('fileHash', fileHash)
-				form.append('hash', hash)
-				return axios.post('/api/uploadList', form, {
+        form.append('hash', hash)
+        return {
+          form: form,
+          idx: index
+        }
+      })
+      // 当文件很大的时候，Promise.all会并发很多的请求，造成浏览器非常的卡顿
+      // 做一下网络请求并发控制
+      // Promise.all(promises)
+      console.log('forms',forms)
+      const res = await this.sendRequest(forms,4)
+      console.log('res', res)
+    },
+    // 网络请求并发控制
+    /**
+     * @param max 最大并发数
+     * @forms 切片数据
+     * 
+     */
+    sendRequest(forms, max = 4){
+      const chunk = this.chunk
+      return  new Promise((resolve)=> {
+      let idx = 0
+      let counter = 0
+      const start = async () => {
+        while(idx < forms.length && max > 0){
+          const form = forms[idx].form
+          const i = forms[idx].idx
+          axios.post('/api/uploadList', form, {
 					onUploadProgress: progress => {
-						item.percenage = Number(
+						chunk[i].percenage = Number(
 							(progress.loaded / progress.total) * 100
 						).toFixed(2)
-					}
-				})
-			})
-			Promise.all(promises)
-		},
+          }
+				}).then((res) => {
+          console.log(idx,res)
+          counter++ // 成功记录
+          max++ // 释放通道
+          if(counter === forms.length){
+            resolve()
+          }else{
+            start()
+          }
+        })
+        max--
+        idx++
+        }
+         
+      }
+      start()
+      })
+      
+      
+    },
 		// 计算文件的hash
 		calculateHash(fileChunk) {
 			return new Promise((resolve) => {
