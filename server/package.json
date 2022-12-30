@@ -11,7 +11,7 @@
   "license": "ISC",
   "devDependencies": {
     "egg": "^2.27.0",
-    "egg-bin": "^4.15.0"
+    "egg-bin": "^5.9.0"
   },
   "dependencies": {
     "fs-extra": "^9.0.1"
